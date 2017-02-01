@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Shellder" size="1.000000 1.394171" />
+    <ImageTarget name="Blitzle" size="1.000000 1.367879" />
+    <ImageTarget name="Slowpoke" size="1.000000 1.389083" />
+    <ImageTarget name="Sigilyph" size="1.000000 1.395268" />
+    <ImageTarget name="Pancham" size="1.000000 1.395268" />
+    <ImageTarget name="Heatmor" size="1.000000 1.427046" />
+    <ImageTarget name="Furfrou" size="1.000000 1.416608" />
+    <ImageTarget name="Ferroseed" size="1.000000 1.423430" />
+    <ImageTarget name="Electabuzz" size="1.000000 1.450826" />
+    <ImageTarget name="Durant" size="1.000000 1.400835" />
+  </Tracking>
+</QCARConfig>
