@@ -1,10 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using System;
 
 public class MediaCollision : MonoBehaviour {
-	
+	private Text text;
+
+	void Start () 
+	{
+		text = GameObject.FindGameObjectWithTag ("OutText").GetComponent<Text>();
+	}
+
 	void OnCollisionEnter(Collision collision){
 		if (collision.gameObject.CompareTag ("Condition")) {
 			ConditionActionK colK = collision.gameObject.GetComponent<ConditionAction> ().MyKind;
@@ -24,7 +31,9 @@ public class MediaCollision : MonoBehaviour {
 				Debug.Log (
 					Enum.GetName (typeof(ConditionActionK), Inst.MyKind)+" "+Inst.MediaId+" "+
 					Enum.GetName (typeof(ConditionActionK), colInst.MyKind)+" "+colInst.MediaId+" "
-				);				
+				);
+				text.text = Enum.GetName (typeof(ConditionActionK), Inst.MyKind) + " " + Inst.MediaId + " " +
+							Enum.GetName (typeof(ConditionActionK), colInst.MyKind) + " " + colInst.MediaId + " ";
 			}
 		}
 	}
