@@ -4,6 +4,7 @@ using System.Collections;
 public class Instantiator : MonoBehaviour
 {
 	public ConditionActionK myKind;
+	public string MediaId;
 
 	public GameObject[] prefabs;
 	private Object currentIcon;
