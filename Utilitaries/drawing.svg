@@ -55,6 +55,26 @@
        y1="916.64795"
        x2="94.285713"
        y2="974.50507" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4140"
+       id="linearGradient4177"
+       x1="225.59285"
+       y1="803.79077"
+       x2="225.59285"
+       y2="856.64795"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-117.14286,1.4285714)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4140"
+       id="linearGradient4183"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(11.428569,1.4285714)"
+       x1="225.59285"
+       y1="803.79077"
+       x2="225.59285"
+       y2="856.64795" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -63,9 +83,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="-33.063808"
-     inkscape:cy="96.350551"
+     inkscape:zoom="1.4"
+     inkscape:cx="302.64141"
+     inkscape:cy="106.00108"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -82,7 +102,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -91,10 +111,7 @@
      inkscape:groupmode="layer"
      id="layer1">
     <g
-       id="g4166"
-       inkscape:export-filename="C:\Users\paulo\Documents\Unity\ARAuthoring\Assets\Textures\start.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90">
+       id="g4146">
       <rect
          style="opacity:1;fill:#1baf21;fill-opacity:1;stroke:none;stroke-width:13;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect4150"
@@ -108,7 +125,7 @@
          id="path4152"
          sodipodi:sides="3"
          sodipodi:cx="106.88335"
-         sodipodi:cy="956.52885"
+         sodipodi:cy="956.52887"
          sodipodi:r1="32.691475"
          sodipodi:r2="16.345736"
          sodipodi:arg1="2.0943951"
@@ -147,5 +164,39 @@
        d="m 217.31175,985.34558 0,-28.31165 0,-28.31164 24.5186,14.15582 24.51861,14.15583 -24.51861,14.15582 z"
        inkscape:transform-center-x="-8.1728614"
        inkscape:transform-center-y="-1.2793264e-005" />
+    <rect
+       style="opacity:1;fill:#1baf21;fill-opacity:1;stroke:none;stroke-width:13;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4152"
+       width="100"
+       height="100"
+       x="57.683811"
+       y="783.50977"
+       inkscape:export-filename="C:\Users\paulo\Documents\Unity\ARAuthoring\Assets\Textures\stop.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="opacity:1;fill:url(#linearGradient4177);fill-opacity:1;stroke:#000000;stroke-width:3.0999999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4168"
+       width="50"
+       height="50"
+       x="83.571419"
+       y="807.36224" />
+    <rect
+       y="783.50977"
+       x="186.25523"
+       height="100"
+       width="100"
+       id="rect4179"
+       style="opacity:1;fill:#aa8800;fill-opacity:1;stroke:none;stroke-width:13;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\paulo\Documents\Unity\ARAuthoring\Assets\Textures\onEnd.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="807.36224"
+       x="212.14285"
+       height="50"
+       width="50"
+       id="rect4181"
+       style="opacity:1;fill:url(#linearGradient4183);fill-opacity:1;stroke:#000000;stroke-width:3.0999999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   </g>
 </svg>
