@@ -4,6 +4,10 @@ using System.Collections;
 public class Instantiator : MonoBehaviour
 {
 	public ConditionActionK myKind;
+
+	public GameObject[] prefabs;
+	private Object currentIcon;
+ 
 	// Use this for initialization
 	void Start ()
 	{
@@ -21,8 +25,16 @@ public class Instantiator : MonoBehaviour
 			return myKind;
 		}
 		set{ 
-			myKind = value;
+			if (MyKind != value) {
+				myKind = value;
+				this.InstantiateCurrentKind ();
+			}
 		}
+	}
+
+	private void InstantiateCurrentKind(){
+		Destroy (currentIcon);
+		currentIcon = Instantiate(prefabs [(int)this.MyKind], transform, false);
 	}
 }
 
