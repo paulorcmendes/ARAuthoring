@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Instantiator : MonoBehaviour
+public class MediaController : MonoBehaviour
 {
 	public ConditionActionK myKind;
 	public string MediaId;
