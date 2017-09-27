@@ -13,29 +13,39 @@ public class MediaCollision : MonoBehaviour {
 	}
 
 	void OnCollisionEnter(Collision collision){
-		if (collision.gameObject.CompareTag ("Condition")) {
-			ConditionActionK colK = collision.gameObject.GetComponent<ConditionAction> ().MyKind;
-			gameObject.GetComponent<MediaController> ().MyKind = colK;
-			gameObject.tag = "ConditionMedia";
-		}
-		else if (collision.gameObject.CompareTag ("Action")) {
-			ConditionActionK colK = collision.gameObject.GetComponent<ConditionAction> ().MyKind;
-			gameObject.GetComponent<MediaController> ().MyKind = colK;
-			gameObject.tag = "ActionMedia";
-		}
+        if (collision.gameObject.CompareTag("Condition"))
+        {
+            ConditionActionK colK = collision.gameObject.GetComponent<ConditionAction>().MyKind;
+            gameObject.GetComponent<MediaController>().MyKind = colK;
+            gameObject.tag = "ConditionMedia";
+        }
+        else if (collision.gameObject.CompareTag("Action"))
+        {
+            ConditionActionK colK = collision.gameObject.GetComponent<ConditionAction>().MyKind;
+            gameObject.GetComponent<MediaController>().MyKind = colK;
+            gameObject.tag = "ActionMedia";
+        }
 
-		else if (gameObject.CompareTag ("ConditionMedia")) {
-			MediaController Inst = gameObject.GetComponent<MediaController> ();
-			MediaController colInst = collision.gameObject.GetComponent<MediaController> ();
-			if (collision.gameObject.CompareTag ("ActionMedia")) {
-				Debug.Log (
-					Enum.GetName (typeof(ConditionActionK), Inst.MyKind)+" "+Inst.MediaId+" "+
-					Enum.GetName (typeof(ConditionActionK), colInst.MyKind)+" "+colInst.MediaId+" "
-				);
-				text.text = Enum.GetName (typeof(ConditionActionK), Inst.MyKind) + " " + Inst.MediaId + " " +
-							Enum.GetName (typeof(ConditionActionK), colInst.MyKind) + " " + colInst.MediaId + " ";
-			}
-		}
+        else if (gameObject.CompareTag("ConditionMedia"))
+        {
+            MediaController Inst = gameObject.GetComponent<MediaController>();
+            MediaController colInst = collision.gameObject.GetComponent<MediaController>();
+            if (collision.gameObject.CompareTag("ActionMedia"))
+            {
+                Debug.Log(
+                    Enum.GetName(typeof(ConditionActionK), Inst.MyKind) + " " + Inst.MediaId + " " +
+                    Enum.GetName(typeof(ConditionActionK), colInst.MyKind) + " " + colInst.MediaId + " "
+                );
+                text.text = Enum.GetName(typeof(ConditionActionK), Inst.MyKind) + " " + Inst.MediaId + " " +
+                            Enum.GetName(typeof(ConditionActionK), colInst.MyKind) + " " + colInst.MediaId + " ";
+            }
+        }
+        else if (collision.gameObject.CompareTag("Initial"))
+        {
+            MediaController Inst = gameObject.GetComponent<MediaController>();
+            Inst.IsInitialMedia = true;
+            text.text = "Port "+Inst.MediaId;
+        }
 	}
 
 }
