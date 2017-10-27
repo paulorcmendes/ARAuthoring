@@ -65,7 +65,7 @@ public class MediaController : MonoBehaviour
 	private void InstantiateCurrentKind()
     {
 		Destroy (currentIcon);
-		currentIcon = Instantiate(prefabs [(int)this.MyKind], transform, false);
+		if(this.MyKind!=ConditionActionK.none)currentIcon = Instantiate(prefabs [(int)this.MyKind], transform, false);
 	}
 
     private void RemoveInitialSymbol()
