@@ -45,6 +45,7 @@ public class MediaCollision : MonoBehaviour {
             MediaKind Inst = gameObject.GetComponent<MediaKind>();
             Inst.IsInitialMedia = true;
             text.text = "Port "+Inst.MediaId;
+            Debug.Log("Port " + Inst.MediaId);
         }
 	}
 
