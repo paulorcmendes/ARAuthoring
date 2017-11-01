@@ -6,11 +6,13 @@ using System;
 
 public class MediaCollision : MonoBehaviour {
 	private Text text;
+    private MediaControllerScript controller;
 
 	void Start () 
 	{
 		text = GameObject.FindGameObjectWithTag ("OutText").GetComponent<Text>();
-	}
+        controller = GameObject.FindGameObjectWithTag("GameController").GetComponent<MediaControllerScript>();
+    }
 
 	void OnCollisionEnter(Collision collision){
         if (collision.gameObject.CompareTag("Condition"))
@@ -32,12 +34,13 @@ public class MediaCollision : MonoBehaviour {
             MediaKind colInst = collision.gameObject.GetComponent<MediaKind>();
             if (collision.gameObject.CompareTag("ActionMedia"))
             {
-                Debug.Log(
+                 /*Debug.Log(
                     Enum.GetName(typeof(ConditionActionK), Inst.MyKind) + " " + Inst.MediaId + " " +
                     Enum.GetName(typeof(ConditionActionK), colInst.MyKind) + " " + colInst.MediaId + " "
-                );
+                );*/
                 text.text = Enum.GetName(typeof(ConditionActionK), Inst.MyKind) + " " + Inst.MediaId + " " +
                             Enum.GetName(typeof(ConditionActionK), colInst.MyKind) + " " + colInst.MediaId + " ";
+                controller.CreateLink(gameObject, collision.gameObject);
             }
         }
         else if (collision.gameObject.CompareTag("Initial"))
@@ -45,7 +48,7 @@ public class MediaCollision : MonoBehaviour {
             MediaKind Inst = gameObject.GetComponent<MediaKind>();
             Inst.IsInitialMedia = true;
             text.text = "Port "+Inst.MediaId;
-            Debug.Log("Port " + Inst.MediaId);
+            controller.OnEntry(gameObject);
         }
 	}
 
