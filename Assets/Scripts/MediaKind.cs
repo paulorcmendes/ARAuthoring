@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class MediaController : MonoBehaviour
+public class MediaKind : MonoBehaviour
 {
 	private ConditionActionK myKind;
     private bool isInitialMedia;

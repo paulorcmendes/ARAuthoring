@@ -16,20 +16,20 @@ public class MediaCollision : MonoBehaviour {
         if (collision.gameObject.CompareTag("Condition"))
         {
             ConditionActionK colK = collision.gameObject.GetComponent<ConditionAction>().MyKind;
-            gameObject.GetComponent<MediaController>().MyKind = colK;
+            gameObject.GetComponent<MediaKind>().MyKind = colK;
             gameObject.tag = "ConditionMedia";
         }
         else if (collision.gameObject.CompareTag("Action"))
         {
             ConditionActionK colK = collision.gameObject.GetComponent<ConditionAction>().MyKind;
-            gameObject.GetComponent<MediaController>().MyKind = colK;
+            gameObject.GetComponent<MediaKind>().MyKind = colK;
             gameObject.tag = "ActionMedia";
         }
 
         else if (gameObject.CompareTag("ConditionMedia"))
         {
-            MediaController Inst = gameObject.GetComponent<MediaController>();
-            MediaController colInst = collision.gameObject.GetComponent<MediaController>();
+            MediaKind Inst = gameObject.GetComponent<MediaKind>();
+            MediaKind colInst = collision.gameObject.GetComponent<MediaKind>();
             if (collision.gameObject.CompareTag("ActionMedia"))
             {
                 Debug.Log(
@@ -42,7 +42,7 @@ public class MediaCollision : MonoBehaviour {
         }
         else if (collision.gameObject.CompareTag("Initial"))
         {
-            MediaController Inst = gameObject.GetComponent<MediaController>();
+            MediaKind Inst = gameObject.GetComponent<MediaKind>();
             Inst.IsInitialMedia = true;
             text.text = "Port "+Inst.MediaId;
         }
