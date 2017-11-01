@@ -11,8 +11,9 @@ public class Focus : MonoBehaviour {
 		//VuforiaBehaviour.Instance.RegisterVuforiaStartedCallback(OnVuforiaStarted);
 		//VuforiaBehaviour.Instance.RegisterOnPauseCallback(OnPaused);
 		OnVuforiaStarted();
-		flash = false;
-	}
+        CameraDevice.Instance.SetFlashTorchMode(false);
+        flash = false;
+    }
 
 	private void OnVuforiaStarted()
 	{
@@ -32,7 +33,7 @@ public class Focus : MonoBehaviour {
 	void Update(){
 		if (Input.touchCount == 1 && Input.GetTouch (0).phase == TouchPhase.Began) {
 			flash = !flash;
-			CameraDevice.Instance.SetFlashTorchMode (flash);
-		}
+            CameraDevice.Instance.SetFlashTorchMode(flash);
+        }
 	}
 }
