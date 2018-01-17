@@ -6,7 +6,7 @@ public enum VIDEO_STATE {PLAYING, STOPED}
 public class MediaSettings : MonoBehaviour {
     private VideoPlayer videoPlayer;
     private AudioSource audioSource;
-    public GameObject cameraPrefab;
+    public GameObject MediaNamePrefab;
     private Camera camera;
 
     //public bool isPlaying;
@@ -29,11 +29,14 @@ public class MediaSettings : MonoBehaviour {
         InitialConfiguration();
         SetMediaSize();
         SetMediaVolume();
-        videoPlayer.loopPointReached += Ended;
+        videoPlayer.loopPointReached += Ended;               
     }
-	
-	// Update is called once per frame
-	void Update () {
+    void Start() {
+        GameObject myName = Instantiate(MediaNamePrefab, transform, false);
+        myName.GetComponent<TextMesh>().text = this.url;
+    }
+    // Update is called once per frame
+    void Update () {
         //isPlaying = (videoPlayer.frame == (int)videoPlayer.frameCount);
         //frameCount = (int)videoPlayer.frameCount;
         //frame = (int)videoPlayer.frame;        
@@ -59,9 +62,15 @@ public class MediaSettings : MonoBehaviour {
 
         this.videoPlayer.isLooping = false;
         this.videoPlayer.url = this.url;
-        this.GetComponent<MeshRenderer>().materials[0].SetTexture("_MainTex", videoPlayer.texture);
+        //this.GetComponent<MeshRenderer>().materials[0].SetTexture("_MainTex", videoPlayer.texture);
+        GameObject text = new GameObject();
+        TextMesh t = text.AddComponent<TextMesh>();
+        t.text = "new text set";
+        t.fontSize = 30;
+        t.transform.localEulerAngles += new Vector3(90, 0, 0);
+        t.transform.localPosition += new Vector3(56f, 3f, 40f);
     }
-    
+
     private void SetMediaSize()
     {
         this.camera.GetComponent<Camera>().rect = rect;
