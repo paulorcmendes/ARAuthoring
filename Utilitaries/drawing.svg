@@ -7,7 +7,6 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="210mm"
@@ -16,56 +15,12 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.92.1 r15371"
-   sodipodi:docname="drawing.svg">
+   sodipodi:docname="drawing.svg"
+   inkscape:export-filename="C:\Users\paulo\Documents\IC\ARAuthoring\Utilitaries\markers\media5.png"
+   inkscape:export-xdpi="192"
+   inkscape:export-ydpi="192">
   <defs
-     id="defs4">
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient4140">
-      <stop
-         style="stop-color:#8d8d8d;stop-opacity:1"
-         offset="0"
-         id="stop4142" />
-      <stop
-         id="stop4148"
-         offset="0.54005188"
-         style="stop-color:#ffffff;stop-opacity:1" />
-      <stop
-         style="stop-color:#8d8d8d;stop-opacity:1"
-         offset="1"
-         id="stop4144" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4140"
-       id="linearGradient4146"
-       x1="94.285713"
-       y1="916.64795"
-       x2="94.285713"
-       y2="974.50507"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-1.8111003,9.571068)" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4140"
-       id="linearGradient4177"
-       x1="225.59285"
-       y1="803.79077"
-       x2="225.59285"
-       y2="856.64795"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-117.14286,1.4285714)" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4140"
-       id="linearGradient4183"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(11.428569,1.4285714)"
-       x1="225.59285"
-       y1="803.79077"
-       x2="225.59285"
-       y2="856.64795" />
-  </defs>
+     id="defs4" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -73,9 +28,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="19.181364"
-     inkscape:cy="500.90446"
+     inkscape:zoom="0.24748737"
+     inkscape:cx="595.3845"
+     inkscape:cy="194.27651"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -101,81 +56,78 @@
      inkscape:groupmode="layer"
      id="layer1">
     <g
-       id="g45"
-       transform="matrix(0.9375,0,0,0.9375,3.7391666,62.853288)">
-      <g
-         id="g4146">
-        <rect
-           y="905.65265"
-           x="59.826668"
-           height="100"
-           width="100"
-           id="rect4150"
-           style="opacity:1;fill:#1baf21;fill-opacity:1;stroke:none;stroke-width:13;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-        <path
-           inkscape:transform-center-y="-1.2793264e-005"
-           inkscape:transform-center-x="-8.1728614"
-           d="m 90.537609,984.84052 2e-6,-28.31165 -2e-6,-28.31165 24.518601,14.15583 24.51861,14.15582 -24.51861,14.15582 z"
-           inkscape:randomized="0"
-           inkscape:rounded="0"
-           inkscape:flatsided="false"
-           sodipodi:arg2="3.1415927"
-           sodipodi:arg1="2.0943951"
-           sodipodi:r2="16.345736"
-           sodipodi:r1="32.691475"
-           sodipodi:cy="956.52887"
-           sodipodi:cx="106.88335"
-           sodipodi:sides="3"
-           id="path4152"
-           style="opacity:1;fill:url(#linearGradient4146);fill-opacity:1;stroke:#000000;stroke-width:3.0999999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           sodipodi:type="star" />
-      </g>
+       id="g876"
+       transform="translate(-17.046324,-604.19749)">
+      <rect
+         style="opacity:1;fill:#1baf21;fill-opacity:1;stroke:none;stroke-width:12.1875;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4150"
+         width="93.75"
+         height="93.75"
+         x="59.826668"
+         y="911.90265" />
+      <path
+         sodipodi:type="star"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.90625;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path4152"
+         sodipodi:sides="3"
+         sodipodi:cx="103.9423"
+         sodipodi:cy="959.59912"
+         sodipodi:r1="30.648258"
+         sodipodi:r2="15.324127"
+         sodipodi:arg1="2.0943951"
+         sodipodi:arg2="3.1415927"
+         inkscape:flatsided="false"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m 88.61817,986.14129 2e-6,-26.54217 -2e-6,-26.54217 22.98619,13.27109 22.9862,13.27108 -22.9862,13.27108 z"
+         inkscape:transform-center-x="-8.1728614"
+         inkscape:transform-center-y="-1.2793264e-005" />
     </g>
     <g
-       id="g32"
-       transform="matrix(0.9375,0,0,0.9375,3.6052381,55.219358)">
+       id="g880"
+       transform="translate(-17.046324,-604.19749)">
       <rect
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
          inkscape:export-filename="C:\Users\paulo\Documents\Unity\ARAuthoring\Assets\Textures\stop.png"
-         y="783.50977"
+         y="789.75977"
          x="57.683811"
-         height="100"
-         width="100"
+         height="93.75"
+         width="93.75"
          id="rect4152"
-         style="opacity:1;fill:#1baf21;fill-opacity:1;stroke:none;stroke-width:13;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="opacity:1;fill:#1baf21;fill-opacity:1;stroke:none;stroke-width:12.1875;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <rect
-         y="807.36224"
-         x="83.571419"
-         height="50"
-         width="50"
+         y="812.12146"
+         x="81.953445"
+         height="46.875"
+         width="46.875"
          id="rect4168"
-         style="opacity:1;fill:url(#linearGradient4177);fill-opacity:1;stroke:#000000;stroke-width:3.0999999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.90625;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
     <g
-       id="g36"
-       transform="matrix(0.9375,0,0,0.9375,11.640952,55.219353)">
+       id="g884"
+       transform="translate(-17.046324,-604.19749)">
       <rect
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
          inkscape:export-filename="C:\Users\paulo\Documents\Unity\ARAuthoring\Assets\Textures\onEnd.png"
-         style="opacity:1;fill:#aa8800;fill-opacity:1;stroke:none;stroke-width:13;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="opacity:1;fill:#aa8800;fill-opacity:1;stroke:none;stroke-width:12.1875;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect4179"
-         width="100"
-         height="100"
+         width="93.75"
+         height="93.75"
          x="186.25523"
-         y="783.50977" />
+         y="789.75977" />
       <rect
-         style="opacity:1;fill:url(#linearGradient4183);fill-opacity:1;stroke:#000000;stroke-width:3.0999999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.90625;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect4181"
-         width="50"
-         height="50"
-         x="212.14285"
-         y="807.36224" />
+         width="46.875"
+         height="46.875"
+         x="210.52487"
+         y="812.12146" />
     </g>
     <g
        id="g50"
-       transform="matrix(0.93749707,0,0,0.93749707,-21.887905,47.150505)"
+       transform="matrix(0.93749707,0,0,0.93749707,-38.934229,-557.04698)"
        inkscape:export-filename="C:\Users\Telemídia-Paulo\Documents\ARAuthoring\Assets\Textures\initial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
@@ -198,46 +150,14 @@
            sodipodi:role="line">i</tspan></text>
     </g>
     <g
-       id="g4578"
-       inkscape:export-filename="C:\Users\paulo\Desktop\g4543.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90">
-      <rect
-         ry="0"
-         y="391.54315"
-         x="58.895504"
-         height="306.45395"
-         width="306.45395"
-         id="rect42"
-         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:15.32269669;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <text
-         id="text4521"
-         y="448.94269"
-         x="101.21819"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.84777832px;line-height:1.25;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.6603241"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:1.6603241"
-           y="448.94269"
-           x="101.21819"
-           id="tspan4519"
-           sodipodi:role="line">CONDITION</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.84777832px;line-height:1.25;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.6603241"
-         x="110.68838"
-         y="670.54492"
-         id="text4533"><tspan
-           sodipodi:role="line"
-           id="tspan4531"
-           x="110.68838"
-           y="670.54492"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:1.6603241">ON BEGIN</tspan></text>
+       transform="matrix(0.66666667,0,0,0.66666667,57.085414,-294.15836)"
+       id="g936">
       <rect
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
          inkscape:export-filename="C:\Users\paulo\Documents\Unity\ARAuthoring\Assets\Textures\onBegin.png"
-         y="469.67911"
-         x="141.14395"
+         y="917.00055"
+         x="193.03479"
          height="140.625"
          width="140.625"
          id="rect4172"
@@ -245,7 +165,7 @@
       <path
          inkscape:transform-center-y="-1.2793264e-005"
          inkscape:transform-center-x="-8.1728614"
-         d="m 184.33119,581.03707 0,-39.81326 0,-39.81325 34.47929,19.90663 34.47929,19.90663 -34.47929,19.90662 z"
+         d="m 236.22206,1028.3585 0,-39.81327 0,-39.81326 34.47929,19.90663 34.47929,19.90663 -34.47929,19.90667 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -253,12 +173,612 @@
          sodipodi:arg1="2.0943951"
          sodipodi:r2="22.986191"
          sodipodi:r1="45.972385"
-         sodipodi:cy="541.22382"
-         sodipodi:cx="207.31738"
+         sodipodi:cy="988.54523"
+         sodipodi:cx="259.20825"
          sodipodi:sides="3"
          id="path4174"
          style="opacity:1;fill:#fafafa;fill-opacity:1;stroke:#000000;stroke-width:4.359375;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          sodipodi:type="star" />
     </g>
+    <g
+       id="g985"
+       transform="translate(530.29742,-808.11698)"
+       inkscape:export-xdpi="56.066486"
+       inkscape:export-ydpi="56.066486"
+       inkscape:export-filename="C:\Users\paulo\Desktop\rebg.png">
+      <g
+         id="g967">
+        <g
+           id="g959">
+          <rect
+             ry="0"
+             y="823.56757"
+             x="5.5803561"
+             height="223.21428"
+             width="223.21428"
+             id="rect42"
+             style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:11.1607132;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <text
+             id="text4521"
+             y="864.50726"
+             x="36.122894"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.07536125px;line-height:1.25;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.21147335"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:1.21147335"
+               y="864.50726"
+               x="36.122894"
+               id="tspan4519"
+               sodipodi:role="line">CONDITION</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.16751099px;line-height:1.25;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.21531296"
+             x="45.607468"
+             y="1028.5686"
+             id="text4533"><tspan
+               sodipodi:role="line"
+               id="tspan4531"
+               x="45.607468"
+               y="1028.5686"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:1.21531296">ON BEGIN</tspan></text>
+        </g>
+      </g>
+      <g
+         transform="matrix(0.66666667,0,0,0.66666667,-58.37736,276.966)"
+         id="g952">
+        <rect
+           inkscape:export-ydpi="90"
+           inkscape:export-xdpi="90"
+           inkscape:export-filename="C:\Users\paulo\Documents\Unity\ARAuthoring\Assets\Textures\onBegin.png"
+           y="917.00055"
+           x="193.03479"
+           height="140.625"
+           width="140.625"
+           id="rect948"
+           style="opacity:1;fill:#aa8800;fill-opacity:1;stroke:none;stroke-width:18.28125;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           inkscape:transform-center-y="-1.2793264e-005"
+           inkscape:transform-center-x="-8.1728614"
+           d="m 236.22206,1028.3585 0,-39.81327 0,-39.81326 34.47929,19.90663 34.47929,19.90663 -34.47929,19.90667 z"
+           inkscape:randomized="0"
+           inkscape:rounded="0"
+           inkscape:flatsided="false"
+           sodipodi:arg2="3.1415927"
+           sodipodi:arg1="2.0943951"
+           sodipodi:r2="22.986191"
+           sodipodi:r1="45.972385"
+           sodipodi:cy="988.54523"
+           sodipodi:cx="259.20825"
+           sodipodi:sides="3"
+           id="path950"
+           style="opacity:1;fill:#fafafa;fill-opacity:1;stroke:#000000;stroke-width:4.359375;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           sodipodi:type="star" />
+      </g>
+    </g>
+    <g
+       id="g1032"
+       transform="translate(815.4876,-804.20784)"
+       inkscape:export-filename="C:\Users\paulo\Desktop\rebg.png"
+       inkscape:export-xdpi="56.066486"
+       inkscape:export-ydpi="56.066486">
+      <g
+         transform="translate(4.7683716e-7,299.2577)"
+         id="g992">
+        <rect
+           ry="0"
+           y="524.30988"
+           x="5.5803561"
+           height="223.21428"
+           width="223.21428"
+           id="rect938"
+           style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:11.1607132;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <text
+           id="text942"
+           y="565.24957"
+           x="36.122894"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.07536125px;line-height:1.25;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.21147335"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:1.21147335"
+             y="565.24957"
+             x="36.122894"
+             id="tspan940"
+             sodipodi:role="line">CONDITION</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.62962914px;line-height:1.25;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.23456788"
+           x="59.649883"
+           y="729.3053"
+           id="text946"><tspan
+             sodipodi:role="line"
+             id="tspan944"
+             x="59.649883"
+             y="729.3053"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:1.23456788">ON END</tspan></text>
+      </g>
+      <g
+         id="g998"
+         transform="translate(-115.94273,98.539942)">
+        <rect
+           inkscape:export-ydpi="90"
+           inkscape:export-xdpi="90"
+           inkscape:export-filename="C:\Users\paulo\Documents\Unity\ARAuthoring\Assets\Textures\onEnd.png"
+           style="opacity:1;fill:#aa8800;fill-opacity:1;stroke:none;stroke-width:12.1875;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect994"
+           width="93.75"
+           height="93.75"
+           x="186.25523"
+           y="789.75977" />
+        <rect
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.90625;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect996"
+           width="46.875"
+           height="46.875"
+           x="210.52487"
+           y="812.12146" />
+      </g>
+    </g>
+    <g
+       id="g1053"
+       transform="translate(525.05576,-503.27236)"
+       inkscape:export-filename="C:\Users\paulo\Desktop\rebg.png"
+       inkscape:export-xdpi="56.066486"
+       inkscape:export-ydpi="56.066486">
+      <g
+         id="g1081"
+         transform="translate(6.4666434,-7.1559989)">
+        <rect
+           style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:11.1607132;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect1011"
+           width="223.21428"
+           height="223.21428"
+           x="5.5803566"
+           y="823.56757"
+           ry="0" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.72381973px;line-height:1.25;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.19682574"
+           x="63.28125"
+           y="864.51154"
+           id="text1015"><tspan
+             sodipodi:role="line"
+             id="tspan1013"
+             x="63.28125"
+             y="864.51154"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:1.19682574">ACTION</tspan></text>
+        <text
+           id="text1019"
+           y="1028.5674"
+           x="69.25544"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.25491333px;line-height:1.25;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.2189548"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:1.2189548"
+             y="1028.5674"
+             x="69.25544"
+             id="tspan1017"
+             sodipodi:role="line">START</tspan></text>
+        <g
+           transform="translate(10.485832,-23.602942)"
+           id="g1043">
+          <rect
+             y="911.90265"
+             x="59.826668"
+             height="93.75"
+             width="93.75"
+             id="rect1039"
+             style="opacity:1;fill:#1baf21;fill-opacity:1;stroke:none;stroke-width:12.1875;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <path
+             inkscape:transform-center-y="-1.2793264e-005"
+             inkscape:transform-center-x="-8.1728614"
+             d="m 88.61817,986.14129 2e-6,-26.54217 -2e-6,-26.54217 22.98619,13.27109 22.9862,13.27108 -22.9862,13.27108 z"
+             inkscape:randomized="0"
+             inkscape:rounded="0"
+             inkscape:flatsided="false"
+             sodipodi:arg2="3.1415927"
+             sodipodi:arg1="2.0943951"
+             sodipodi:r2="15.324127"
+             sodipodi:r1="30.648258"
+             sodipodi:cy="959.59912"
+             sodipodi:cx="103.9423"
+             sodipodi:sides="3"
+             id="path1041"
+             style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.90625;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             sodipodi:type="star" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g1105"
+       transform="translate(819.04868,-511.53786)"
+       inkscape:export-filename="C:\Users\paulo\Desktop\rebg.png"
+       inkscape:export-xdpi="56.066486"
+       inkscape:export-ydpi="56.066486">
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:11.1607132;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1055"
+         width="223.21428"
+         height="223.21428"
+         x="5.5803566"
+         y="823.56757"
+         ry="0" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.72381973px;line-height:1.25;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.19682574"
+         x="63.28125"
+         y="864.51154"
+         id="text1059"><tspan
+           sodipodi:role="line"
+           id="tspan1057"
+           x="63.28125"
+           y="864.51154"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:1.19682574">ACTION</tspan></text>
+      <text
+         id="text1063"
+         y="1028.5303"
+         x="73.837288"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.17876816px;line-height:1.25;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.34078217"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:1.34078217"
+           y="1028.5303"
+           x="73.837288"
+           id="tspan1061"
+           sodipodi:role="line">STOP</tspan></text>
+      <g
+         id="g1095"
+         transform="translate(12.628689,98.539942)">
+        <rect
+           inkscape:export-ydpi="90"
+           inkscape:export-xdpi="90"
+           inkscape:export-filename="C:\Users\paulo\Documents\Unity\ARAuthoring\Assets\Textures\stop.png"
+           y="789.75977"
+           x="57.683811"
+           height="93.75"
+           width="93.75"
+           id="rect1091"
+           style="opacity:1;fill:#1baf21;fill-opacity:1;stroke:none;stroke-width:12.1875;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="812.12146"
+           x="81.953445"
+           height="46.875"
+           width="46.875"
+           id="rect1093"
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.90625;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+    </g>
+    <g
+       id="g1313"
+       inkscape:export-filename="C:\Users\paulo\Desktop\rebg.png"
+       inkscape:export-xdpi="56.066486"
+       inkscape:export-ydpi="56.066486"
+       transform="translate(1098.5409,-806.85935)">
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:11.1607132;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1170"
+         width="223.21428"
+         height="223.21428"
+         x="5.5803566"
+         y="823.56757"
+         ry="0"
+         inkscape:export-filename="C:\Users\paulo\Documents\IC\ARAuthoring\Utilitaries\markers\initial.png"
+         inkscape:export-xdpi="192.00002"
+         inkscape:export-ydpi="192.00002" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.94472313px;line-height:1.25;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.20603001"
+         x="65.990105"
+         y="864.51154"
+         id="text1174"><tspan
+           sodipodi:role="line"
+           id="tspan1172"
+           x="65.990105"
+           y="864.51154"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:1.20603001">INITIAL</tspan></text>
+      <text
+         id="text1178"
+         y="1028.5674"
+         x="51.83099"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.31131935px;line-height:1.25;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.22130501"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:1.22130501"
+           y="1028.5674"
+           x="51.83099"
+           id="tspan1176"
+           sodipodi:role="line">MARKER</tspan></text>
+      <rect
+         style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:12.1875;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1259"
+         width="93.75"
+         height="93.75"
+         x="70.3125"
+         y="888.29968"
+         inkscape:export-filename="C:\Users\paulo\Documents\Unity\ARAuthoring\Assets\Textures\onBegin.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:61.43344879px;line-height:1.25;font-family:'Segoe Print';-inkscape-font-specification:'Segoe Print';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.5358361"
+         x="77.831696"
+         y="958.61218"
+         id="text1233"><tspan
+           sodipodi:role="line"
+           id="tspan1231"
+           x="77.831696"
+           y="958.61218"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff;stroke-width:1.5358361">INI</tspan></text>
+    </g>
+    <g
+       id="g1362"
+       transform="translate(-18.152409,-568.67561)">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\paulo\Documents\Unity\ARAuthoring\Assets\Textures\onBegin.png"
+         y="889.63898"
+         x="342.18753"
+         height="93.75"
+         width="93.75"
+         id="rect1325"
+         style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:12.1875;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         id="text1329"
+         y="959.95148"
+         x="349.7067"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:61.43344879px;line-height:1.25;font-family:'Segoe Print';-inkscape-font-specification:'Segoe Print';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.5358361"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff;stroke-width:1.5358361"
+           y="959.95148"
+           x="349.7067"
+           id="tspan1327"
+           sodipodi:role="line">INI</tspan></text>
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1351"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;line-height:1.25;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375"><flowRegion
+         id="flowRegion1353"
+         style="stroke-width:0.9375"><rect
+           id="rect1355"
+           width="171.41026"
+           height="178.03938"
+           x="329.56226"
+           y="325.05237"
+           style="stroke-width:0.87890625" /></flowRegion><flowPara
+         id="flowPara1357"
+         style="stroke-width:0.9375" /></flowRoot>    <g
+       id="g4625"
+       inkscape:export-filename="C:\Users\paulo\Documents\IC\ARAuthoring\Utilitaries\markers\media10.png"
+       inkscape:export-xdpi="192.00002"
+       inkscape:export-ydpi="192.00002"
+       transform="translate(515.1778,68.185293)">
+      <rect
+         inkscape:export-ydpi="192.00002"
+         inkscape:export-xdpi="192.00002"
+         inkscape:export-filename="C:\Users\paulo\Documents\IC\ARAuthoring\Utilitaries\markers\initial.png"
+         ry="0"
+         y="823.56757"
+         x="5.5803566"
+         height="223.21428"
+         width="223.21428"
+         id="rect1315"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:11.1607132;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         id="text1319"
+         y="864.51154"
+         x="68.204941"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.7674408px;line-height:1.25;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.24030995"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:1.24030995"
+           y="864.51154"
+           x="68.204941"
+           id="tspan1317"
+           sodipodi:role="line">MEDIA</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.31131935px;line-height:1.25;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.22130501"
+         x="51.830967"
+         y="1028.5674"
+         id="text1323"><tspan
+           sodipodi:role="line"
+           id="tspan1321"
+           x="51.830967"
+           y="1028.5674"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:1.22130501">MARKER</tspan></text>
+      <g
+         transform="matrix(1.0232454,0,0,1.0232454,60.666146,197.0483)"
+         id="g4607">
+        <g
+           id="g1386"
+           transform="translate(-0.15906689,-547.84121)">
+          <rect
+             y="1243.9534"
+             x="0.15906689"
+             height="75"
+             width="112.5"
+             id="rect1364"
+             style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:19.5069809;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <rect
+             y="1248.6409"
+             x="9.5340672"
+             height="9.375"
+             width="18.75"
+             id="rect1366"
+             style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:14.89698887;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <rect
+             style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:14.89698887;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="rect1368"
+             width="18.75"
+             height="9.375"
+             x="47.034065"
+             y="1248.6409" />
+          <rect
+             y="1248.6409"
+             x="84.534065"
+             height="9.375"
+             width="18.75"
+             id="rect1370"
+             style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:14.89698887;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        </g>
+        <g
+           transform="rotate(-6.2010102,-5681.4812,2259.162)"
+           id="g1423">
+          <rect
+             style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:9.75349045;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="rect1388"
+             width="112.5"
+             height="18.75"
+             x="135.59377"
+             y="1300.2034" />
+          <rect
+             style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:14.89698887;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="rect1390"
+             width="18.75"
+             height="9.375"
+             x="144.96877"
+             y="1304.8909" />
+          <rect
+             y="1304.8909"
+             x="182.46877"
+             height="9.375"
+             width="18.75"
+             id="rect1392"
+             style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:14.89698887;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <rect
+             style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:14.89698887;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="rect1394"
+             width="18.75"
+             height="9.375"
+             x="219.96877"
+             y="1304.8909" />
+        </g>
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:57.1428566px;line-height:1.25;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.38095236"
+       x="599.72021"
+       y="1045.5778"
+       id="text4629"><tspan
+         sodipodi:role="line"
+         id="tspan4627"
+         x="599.72021"
+         y="1045.5778"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff;stroke-width:2.38095236">10</tspan></text>
+    <g
+       inkscape:export-ydpi="192.00002"
+       inkscape:export-xdpi="192.00002"
+       inkscape:export-filename="C:\Users\paulo\Documents\IC\ARAuthoring\Utilitaries\markers\media1.png"
+       id="g4679"
+       transform="translate(524.64798,-242.43661)">
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:11.1607132;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4647"
+         width="223.21428"
+         height="223.21428"
+         x="5.5803566"
+         y="823.56757"
+         ry="0"
+         inkscape:export-filename="C:\Users\paulo\Documents\IC\ARAuthoring\Utilitaries\markers\initial.png"
+         inkscape:export-xdpi="192.00002"
+         inkscape:export-ydpi="192.00002" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.7674408px;line-height:1.25;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.24030995"
+         x="68.204941"
+         y="864.51154"
+         id="text4651"><tspan
+           sodipodi:role="line"
+           id="tspan4649"
+           x="68.204941"
+           y="864.51154"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:1.24030995">MEDIA</tspan></text>
+      <text
+         id="text4655"
+         y="1028.5674"
+         x="51.830967"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.31131935px;line-height:1.25;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.22130501"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:1.22130501"
+           y="1028.5674"
+           x="51.830967"
+           id="tspan4653"
+           sodipodi:role="line">MARKER</tspan></text>
+      <g
+         id="g4677"
+         transform="matrix(1.0232454,0,0,1.0232454,60.666146,197.0483)">
+        <g
+           transform="translate(-0.15906689,-547.84121)"
+           id="g4665">
+          <rect
+             style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:19.5069809;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="rect4657"
+             width="112.5"
+             height="75"
+             x="0.15906689"
+             y="1243.9534" />
+          <rect
+             style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:14.89698887;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="rect4659"
+             width="18.75"
+             height="9.375"
+             x="9.5340672"
+             y="1248.6409" />
+          <rect
+             y="1248.6409"
+             x="47.034065"
+             height="9.375"
+             width="18.75"
+             id="rect4661"
+             style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:14.89698887;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <rect
+             style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:14.89698887;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="rect4663"
+             width="18.75"
+             height="9.375"
+             x="84.534065"
+             y="1248.6409" />
+        </g>
+        <g
+           id="g4675"
+           transform="rotate(-6.2010102,-5681.4812,2259.162)">
+          <rect
+             y="1300.2034"
+             x="135.59377"
+             height="18.75"
+             width="112.5"
+             id="rect4667"
+             style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:9.75349045;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <rect
+             y="1304.8909"
+             x="144.96877"
+             height="9.375"
+             width="18.75"
+             id="rect4669"
+             style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:14.89698887;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <rect
+             style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:14.89698887;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="rect4671"
+             width="18.75"
+             height="9.375"
+             x="182.46877"
+             y="1304.8909" />
+          <rect
+             y="1304.8909"
+             x="219.96877"
+             height="9.375"
+             width="18.75"
+             id="rect4673"
+             style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:14.89698887;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        </g>
+      </g>
+    </g>
+    <text
+       id="text4683"
+       y="734.9256"
+       x="627.74384"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:59.62733078px;line-height:1.25;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.48447204"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff;stroke-width:2.48447204"
+         y="734.9256"
+         x="627.74384"
+         id="tspan4681"
+         sodipodi:role="line">1</tspan></text>
   </g>
 </svg>
