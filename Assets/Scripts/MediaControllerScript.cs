@@ -3,25 +3,39 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
+public enum CurrentMode {EDITING, PLAYING}
+
 public class MediaControllerScript : MonoBehaviour {
 
-    //public GameObject[] medias;
-
     public delegate void MyHandler();
-
+    public CurrentMode myMode;
+    private GameObject ARCamera;
     public event MyHandler Port;
 	// Use this for initialization
-	void Start () {        
-        /*ConnectorBase.OnEndStop(medias[1], medias[3]);
-        ConnectorBase.OnEndStart(medias[3], medias[0]);
-        OnEntry(medias[1]);
-        ConnectorBase.OnBeginStart(medias[1], medias[3]);*/
+	void Start () {
+        ARCamera = GameObject.FindGameObjectWithTag("ARCamera");
+        myMode = CurrentMode.EDITING;
     }
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetButtonDown("Jump") || Input.GetMouseButton(0)) Play();
+        if (Input.GetButtonDown("Jump") || Input.GetMouseButtonDown(0)) SwitchMyMode();
 	}
+
+    public void SwitchMyMode()
+    {
+        if (myMode == CurrentMode.EDITING)
+        {
+            ARCamera.SetActive(false);
+            myMode = CurrentMode.PLAYING;
+            Play();
+        }
+        else
+        {
+            ARCamera.SetActive(true);
+            myMode = CurrentMode.EDITING;
+        }
+    }
 
     private void Play() {
         if(Port != null)  this.Port();

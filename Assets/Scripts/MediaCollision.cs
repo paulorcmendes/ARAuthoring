@@ -13,7 +13,7 @@ public class MediaCollision : MonoBehaviour {
 		text = GameObject.FindGameObjectWithTag ("OutText").GetComponent<Text>();
         controller = GameObject.FindGameObjectWithTag("GameController").GetComponent<MediaControllerScript>();
     }
-
+   
 	void OnCollisionEnter(Collision collision){
         if (collision.gameObject.CompareTag("Condition"))
         {

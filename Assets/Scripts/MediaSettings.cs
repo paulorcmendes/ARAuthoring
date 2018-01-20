@@ -8,6 +8,7 @@ public class MediaSettings : MonoBehaviour {
     private AudioSource audioSource;
     public GameObject MediaNamePrefab;
     private Camera camera;
+    private MediaControllerScript controller;
 
     //public bool isPlaying;
     //public int frameCount;
@@ -34,12 +35,11 @@ public class MediaSettings : MonoBehaviour {
     void Start() {
         GameObject myName = Instantiate(MediaNamePrefab, transform, false);
         myName.GetComponent<TextMesh>().text = this.url;
+        controller = GameObject.FindGameObjectWithTag("GameController").GetComponent<MediaControllerScript>();
     }
     // Update is called once per frame
     void Update () {
-        //isPlaying = (videoPlayer.frame == (int)videoPlayer.frameCount);
-        //frameCount = (int)videoPlayer.frameCount;
-        //frame = (int)videoPlayer.frame;        
+        if (controller.myMode == CurrentMode.EDITING) videoPlayer.Stop();      
     }
 
     
@@ -52,6 +52,7 @@ public class MediaSettings : MonoBehaviour {
         this.camera = this.gameObject.AddComponent<Camera>();
         this.camera.enabled = false;
         this.camera.orthographic = true;
+        this.camera.cullingMask = LayerMask.GetMask("Nothing");
         this.videoPlayer.audioOutputMode = VideoAudioOutputMode.AudioSource;
         this.videoPlayer.source = VideoSource.Url;
         this.videoPlayer.SetTargetAudioSource(0, this.audioSource);
