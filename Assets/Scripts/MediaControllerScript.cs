@@ -32,6 +32,11 @@ public class MediaControllerScript : MonoBehaviour {
         Debug.Log("Port " + media.GetComponent<MediaKind>().MediaId);
         this.Port += media.GetComponent<MediaSettings>().Play;
     }
+    public void RemoveEntry(GameObject media)
+    {
+        Debug.Log("Port Removed " + media.GetComponent<MediaKind>().MediaId);
+        this.Port -= media.GetComponent<MediaSettings>().Play;
+    }
     public void CreateLink(GameObject mediaCondition, GameObject mediaAction) {
         Debug.Log(
             Enum.GetName(typeof(ConditionActionK), mediaCondition.GetComponent<MediaKind>().MyKind) +" "+ mediaCondition.GetComponent<MediaKind>().MediaId + " " +

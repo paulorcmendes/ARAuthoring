@@ -47,18 +47,16 @@ public class MediaKind : MonoBehaviour
         }
         set
         {
-            if (isInitialMedia != value)
+            isInitialMedia = value;
+            if (isInitialMedia)
             {
-                if (isInitialMedia)
-                {
-                    RemoveInitialSymbol();
-                }
-                else
-                {
-                    isInitialMedia = true;
-                    InstantiateSymbol();
-                }
+                InstantiateSymbol(); 
             }
+            else
+            {
+                RemoveInitialSymbol();
+            }
+            
         }
     }
 
@@ -70,7 +68,7 @@ public class MediaKind : MonoBehaviour
 
     private void RemoveInitialSymbol()
     {
-        //To Do
+        Destroy(initialIcon);
     }
 
     private void InstantiateSymbol()
