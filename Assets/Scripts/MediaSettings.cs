@@ -18,7 +18,7 @@ public class MediaSettings : MonoBehaviour {
     [Range(0f, 100f)]
     public float volume;
     public Rect rect;
-
+    public int zIndex;
     public delegate void MyHandler();
 
     public event MyHandler OnBegin;
@@ -53,6 +53,7 @@ public class MediaSettings : MonoBehaviour {
         this.camera.enabled = false;
         this.camera.orthographic = true;
         this.camera.cullingMask = LayerMask.GetMask("Nothing");
+        this.camera.depth = this.zIndex;
         this.videoPlayer.audioOutputMode = VideoAudioOutputMode.AudioSource;
         this.videoPlayer.source = VideoSource.Url;
         this.videoPlayer.SetTargetAudioSource(0, this.audioSource);
