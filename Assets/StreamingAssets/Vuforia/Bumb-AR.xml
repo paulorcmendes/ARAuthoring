@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="media10" size="1.000000 1.000000" />
+    <ImageTarget name="media4" size="1.000000 1.000000" />
+    <ImageTarget name="media1" size="1.000000 1.000000" />
+    <ImageTarget name="media9" size="1.000000 1.000000" />
+    <ImageTarget name="media8" size="1.000000 1.000000" />
+    <ImageTarget name="media7" size="1.000000 1.000000" />
+    <ImageTarget name="media6" size="1.000000 1.000000" />
+    <ImageTarget name="media5" size="1.000000 1.000000" />
+    <ImageTarget name="media3" size="1.000000 1.000000" />
+    <ImageTarget name="media2" size="1.000000 1.000000" />
+    <ImageTarget name="initial" size="1.000000 1.000000" />
+    <ImageTarget name="stop" size="1.000000 1.000000" />
+    <ImageTarget name="start" size="1.000000 1.000000" />
+    <ImageTarget name="onEnd" size="1.000000 1.000000" />
+    <ImageTarget name="onBegin" size="1.000000 1.000000" />
+  </Tracking>
+</QCARConfig>

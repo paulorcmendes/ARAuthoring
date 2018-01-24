@@ -28,14 +28,14 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="1183.782"
-     inkscape:cy="-599.93013"
+     inkscape:zoom="0.35"
+     inkscape:cx="1361.8713"
+     inkscape:cy="-698.75267"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
+     inkscape:window-width="1366"
+     inkscape:window-height="715"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1" />
@@ -884,6 +884,62 @@
            sodipodi:role="line">10</tspan></text>
     </g>
     <g
+       inkscape:export-ydpi="230.40001"
+       inkscape:export-xdpi="230.40001"
+       inkscape:export-filename="C:\Users\paulo\Desktop\NmARKERS\media10.png"
+       transform="translate(816.19492,1186.9186)"
+       id="g6186">
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:11.1607132;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6144"
+         width="223.21428"
+         height="223.21428"
+         x="530.22833"
+         y="581.13098"
+         ry="0"
+         inkscape:export-filename="C:\Users\paulo\Documents\IC\ARAuthoring\Utilitaries\markers\initial.png"
+         inkscape:export-xdpi="192.00002"
+         inkscape:export-ydpi="192.00002" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.7674408px;line-height:1.25;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.24030995"
+         x="592.85291"
+         y="622.07495"
+         id="text6148"><tspan
+           sodipodi:role="line"
+           id="tspan6146"
+           x="592.85291"
+           y="622.07495"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:1.24030995">MEDIA</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:59.62733078px;line-height:1.25;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.48447204"
+         x="627.74384"
+         y="734.9256"
+         id="text6156"><tspan
+           sodipodi:role="line"
+           id="tspan6154"
+           x="627.74384"
+           y="734.9256"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff;stroke-width:2.48447204">1</tspan></text>
+      <g
+         transform="matrix(1.6339474,-1.3263673,1.3263673,1.6339474,-1863.602,-89.351463)"
+         id="g6184"
+         style="fill:#000000">
+        <text
+           id="text6182"
+           y="1063.1724"
+           x="638.01196"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:46.91857147px;line-height:1.25;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.95494056"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#000000;stroke-width:1.95494056"
+             y="1063.1724"
+             x="638.01196"
+             id="tspan6180"
+             sodipodi:role="line">TEN</tspan></text>
+      </g>
+    </g>
+    <g
        id="g278"
        inkscape:export-filename="C:\Users\Telemídia-Paulo\Desktop\NmARKERS\1.png"
        inkscape:export-xdpi="230.39999"
@@ -1021,7 +1077,7 @@
       <rect
          inkscape:export-ydpi="230.39999"
          inkscape:export-xdpi="230.39999"
-         inkscape:export-filename="C:\Users\Telemídia-Paulo\Desktop\NmARKERS\media1.png"
+         inkscape:export-filename="C:\Users\paulo\Desktop\NmARKERS\media1.png"
          ry="0"
          y="1497.2024"
          x="516.83545"
@@ -1080,6 +1136,34 @@
                id="tspan5784"
                sodipodi:role="line">ONE</tspan></text>
         </g>
+        <rect
+           style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:18.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect474"
+           width="23.675449"
+           height="23.675449"
+           x="530.22833"
+           y="581.13098" />
+        <rect
+           style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:18.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect477"
+           width="26.990013"
+           height="26.042995"
+           x="726.45264"
+           y="778.30225" />
+        <rect
+           style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:27.30821609;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect479"
+           width="37.5"
+           height="33.482143"
+           x="1398.2142"
+           y="911.73718" />
+        <rect
+           y="851.97815"
+           x="1545.5304"
+           height="33.482143"
+           width="37.5"
+           id="rect481"
+           style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:27.30821609;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       </g>
     </g>
     <g
@@ -2451,7 +2535,7 @@
     <g
        inkscape:export-ydpi="230.39999"
        inkscape:export-xdpi="230.39999"
-       inkscape:export-filename="C:\Users\Telemídia-Paulo\Desktop\NmARKERS\4.png"
+       inkscape:export-filename="C:\Users\paulo\Desktop\NmARKERS\media4.png"
        transform="translate(806.72474,919.85951)"
        id="g5922">
       <rect
@@ -2504,15 +2588,21 @@
          style="fill:#000000">
         <text
            id="text5918"
-           y="1036.2904"
-           x="583.7149"
+           y="617.70343"
+           x="-1052.5355"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35.50312424px;line-height:1.25;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.47929692"
-           xml:space="preserve"><tspan
+           xml:space="preserve"
+           transform="rotate(-90.350962)"><tspan
              style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#000000;stroke-width:1.47929692"
-             y="1036.2904"
-             x="583.7149"
+             y="617.70343"
+             x="-1052.5355"
              id="tspan5916"
-             sodipodi:role="line">FOUR</tspan></text>
+             sodipodi:role="line">FO</tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#000000;stroke-width:1.47929692"
+             y="662.80334"
+             x="-1052.5355"
+             sodipodi:role="line"
+             id="tspan472">UR</tspan></text>
       </g>
     </g>
     <g
@@ -2878,62 +2968,6 @@
            x="895.27997"
            y="37.894753"
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:1.62734139">9 9 9 9</tspan></text>
-    </g>
-    <g
-       inkscape:export-ydpi="230.40001"
-       inkscape:export-xdpi="230.40001"
-       inkscape:export-filename="C:\Users\Telemídia-Paulo\Desktop\NmARKERS\10.png"
-       transform="translate(816.19492,1186.9186)"
-       id="g6186">
-      <rect
-         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:11.1607132;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect6144"
-         width="223.21428"
-         height="223.21428"
-         x="530.22833"
-         y="581.13098"
-         ry="0"
-         inkscape:export-filename="C:\Users\paulo\Documents\IC\ARAuthoring\Utilitaries\markers\initial.png"
-         inkscape:export-xdpi="192.00002"
-         inkscape:export-ydpi="192.00002" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.7674408px;line-height:1.25;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.24030995"
-         x="592.85291"
-         y="622.07495"
-         id="text6148"><tspan
-           sodipodi:role="line"
-           id="tspan6146"
-           x="592.85291"
-           y="622.07495"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:1.24030995">MEDIA</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:59.62733078px;line-height:1.25;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.48447204"
-         x="627.74384"
-         y="734.9256"
-         id="text6156"><tspan
-           sodipodi:role="line"
-           id="tspan6154"
-           x="627.74384"
-           y="734.9256"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff;stroke-width:2.48447204">1</tspan></text>
-      <g
-         transform="matrix(1.6339474,-1.3263673,1.3263673,1.6339474,-1863.602,-89.351463)"
-         id="g6184"
-         style="fill:#000000">
-        <text
-           id="text6182"
-           y="1063.1724"
-           x="638.01196"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:46.91857147px;line-height:1.25;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.95494056"
-           xml:space="preserve"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#000000;stroke-width:1.95494056"
-             y="1063.1724"
-             x="638.01196"
-             id="tspan6180"
-             sodipodi:role="line">TEN</tspan></text>
-      </g>
     </g>
   </g>
 </svg>

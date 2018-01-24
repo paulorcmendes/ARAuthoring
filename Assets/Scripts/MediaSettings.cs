@@ -38,10 +38,14 @@ public class MediaSettings : MonoBehaviour {
         controller = GameObject.FindGameObjectWithTag("GameController").GetComponent<MediaControllerScript>();
     }
     // Update is called once per frame
-    void Update () {
-        if (controller.myMode == CurrentMode.EDITING) videoPlayer.Stop();      
+    void Update()
+    {
+        if (controller.myMode == CurrentMode.EDITING)
+        {
+            videoPlayer.Stop();
+            this.camera.enabled = false;
+        }
     }
-
     
 
     private void InitialConfiguration()
