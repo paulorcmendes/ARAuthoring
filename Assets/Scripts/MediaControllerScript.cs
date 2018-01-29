@@ -11,10 +11,12 @@ public class MediaControllerScript : MonoBehaviour {
     public CurrentMode myMode;
     private GameObject ARCamera;
     public event MyHandler Port;
-	// Use this for initialization
-	void Start () {
+    private NCLParser nclParser;
+    // Use this for initialization
+    void Start () {
         ARCamera = GameObject.FindGameObjectWithTag("ARCamera");
         myMode = CurrentMode.EDITING;
+        nclParser = GameObject.FindGameObjectWithTag("GameController").GetComponent<NCLParser>();
     }
 	
 	// Update is called once per frame
@@ -29,6 +31,7 @@ public class MediaControllerScript : MonoBehaviour {
             ARCamera.SetActive(false);
             myMode = CurrentMode.PLAYING;
             Play();
+            nclParser.Save();
         }
         else
         {

@@ -3,12 +3,16 @@
 <ncl id="Bumb-ar" xmlms="http://www.ncl.org.br/NCL3.0/EDTVProfile">
   <head>
     <regionBase>
-      <region id="rgmedia1" left="0%" bottom="0%" width="100%" height="100%" zIndex="1" />
-      <region id="rgmedia2" left="0%" bottom="0%" width="50%" height="50%" zIndex="2" />
+      <region id="rgMedia1" left="0%" bottom="0%" width="50%" height="50%" zIndex="1" />
+      <region id="rgMedia3" left="0%" bottom="50%" width="50%" height="50%" zIndex="3" />
+      <region id="rgMedia4" left="100%" bottom="100%" width="100%" height="100%" zIndex="100" />
+      <region id="rgMedia2" left="50%" bottom="0%" width="50%" height="100%" zIndex="0" />
     </regionBase>
     <descriptorBase>
-      <descriptor id="descmedia1" region="rgmedia1" soundLevel="0.5" />
-      <descriptor id="descmedia2" region="rgmedia2" soundLevel="0.5" />
+      <descriptor id="descMedia1" region="rgMedia1" soundLevel="0" />
+      <descriptor id="descMedia3" region="rgMedia3" soundLevel="0.464" />
+      <descriptor id="descMedia4" region="rgMedia4" soundLevel="0.616" />
+      <descriptor id="descMedia2" region="rgMedia2" soundLevel="0.232" />
     </descriptorBase>
     <connectorBase>
       <causalConnector id="onBeginStart">
@@ -30,12 +34,9 @@
     </connectorBase>
   </head>
   <body>
-    <media id="media1" src="video1.mp4" descriptor="descmedia1" />
-    <media id="media2" src="video2.mp4" descriptor="descmedia2" />
-    <port id="portmedia1" component="media1" />
-    <link xconnector="onBeginStart">
-      <bind role="onBegin" component="media1" />
-      <bind role="Start" component="media2" />
-    </link>
+    <media id="Media1" src="video1.mp4" descriptor="descMedia1" />
+    <media id="Media3" src="video3.mp4" descriptor="descMedia3" />
+    <media id="Media4" src="video4.mp4" descriptor="descMedia4" />
+    <media id="Media2" src="video2.mp4" descriptor="descMedia2" />
   </body>
 </ncl>

@@ -5,10 +5,9 @@ public class MediaKind : MonoBehaviour
 {
 	private ConditionActionK myKind;
     private bool isInitialMedia;
-	public string MediaId;
 
-
-	public GameObject[] prefabs;
+    public string MediaId;
+    public GameObject[] prefabs;
     public GameObject initialIconPrefab;
 	private Object currentIcon;
     private Object initialIcon;

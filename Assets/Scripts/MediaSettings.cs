@@ -9,11 +9,13 @@ public class MediaSettings : MonoBehaviour {
     public GameObject MediaNamePrefab;
     private Camera camera;
     private MediaControllerScript controller;
+    private NCLParser nclParser;
 
     //public bool isPlaying;
     //public int frameCount;
     //public int frame;
 
+	private string MediaId;
     public string url;
     [Range(0f, 100f)]
     public float volume;
@@ -30,12 +32,16 @@ public class MediaSettings : MonoBehaviour {
         InitialConfiguration();
         SetMediaSize();
         SetMediaVolume();
-        videoPlayer.loopPointReached += Ended;               
+        videoPlayer.loopPointReached += Ended;
+        MediaId = GetComponent<MediaKind>().MediaId;
     }
     void Start() {
         GameObject myName = Instantiate(MediaNamePrefab, transform, false);
         myName.GetComponent<TextMesh>().text = this.url;
         controller = GameObject.FindGameObjectWithTag("GameController").GetComponent<MediaControllerScript>();
+        nclParser = GameObject.FindGameObjectWithTag("GameController").GetComponent<NCLParser>();
+        //SaveToNCL
+        nclParser.AddMedia(MediaId, url, volume, rect.x, rect.y, rect.width, rect.height, zIndex);
     }
     // Update is called once per frame
     void Update()
