@@ -27,7 +27,7 @@ public class MediaCollision : MonoBehaviour {
             gameObject.GetComponent<MediaKind>().MyKind = colK;
             gameObject.tag = "ActionMedia";
         }
-        else if (collision.gameObject.CompareTag("Initial"))
+        /*else if (collision.gameObject.CompareTag("Initial"))
         {
             MediaKind Inst = gameObject.GetComponent<MediaKind>();
             Inst.IsInitialMedia = !Inst.IsInitialMedia;            
@@ -38,6 +38,16 @@ public class MediaCollision : MonoBehaviour {
             else {
                 controller.RemoveEntry(gameObject);
                 text.text = "Port Removed "+ Inst.MediaId;
+            }
+        }*/
+        else if (collision.gameObject.CompareTag("Initial"))
+        {
+            MediaKind Inst = gameObject.GetComponent<MediaKind>();
+            if (!Inst.IsInitialMedia)
+            {                
+                Inst.IsInitialMedia = true;
+                controller.OnEntry(gameObject);
+                text.text = "Port " + Inst.MediaId;
             }
         }
         else if (gameObject.CompareTag("ConditionMedia"))

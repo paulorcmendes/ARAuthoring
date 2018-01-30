@@ -48,6 +48,7 @@ public class MediaControllerScript : MonoBehaviour {
     {
         Debug.Log("Port " + media.GetComponent<MediaKind>().MediaId);
         this.Port += media.GetComponent<MediaSettings>().Play;
+        nclParser.AddPort(media.GetComponent<MediaKind>().MediaId);
     }
     public void RemoveEntry(GameObject media)
     {
@@ -55,16 +56,21 @@ public class MediaControllerScript : MonoBehaviour {
         this.Port -= media.GetComponent<MediaSettings>().Play;
     }
     public void CreateLink(GameObject mediaCondition, GameObject mediaAction) {
-        Debug.Log(
-            Enum.GetName(typeof(ConditionActionK), mediaCondition.GetComponent<MediaKind>().MyKind) +" "+ mediaCondition.GetComponent<MediaKind>().MediaId + " " +
-            Enum.GetName(typeof(ConditionActionK), mediaAction.GetComponent<MediaKind>().MyKind)+" "+mediaAction.GetComponent<MediaKind>().MediaId + " ");
+        string condition = Enum.GetName(typeof(ConditionActionK), mediaCondition.GetComponent<MediaKind>().MyKind);
+        string media1 = mediaCondition.GetComponent<MediaKind>().MediaId;
+        string action = Enum.GetName(typeof(ConditionActionK), mediaAction.GetComponent<MediaKind>().MyKind);
+        string media2 = mediaAction.GetComponent<MediaKind>().MediaId;
+
+        Debug.Log(condition+" "+ media1 + " " +action+" "+media2);
+        nclParser.AddLink(condition, media1, action, media2);
+
         switch (mediaCondition.GetComponent<MediaKind>().MyKind) {
             case ConditionActionK.onBegin:
                 switch (mediaAction.GetComponent<MediaKind>().MyKind) {
-                    case ConditionActionK.start:
+                    case ConditionActionK.Start:
                         ConnectorBase.OnBeginStart(mediaCondition, mediaAction);
                         break;
-                    case ConditionActionK.stop:
+                    case ConditionActionK.Stop:
                         ConnectorBase.OnBeginStop(mediaCondition, mediaAction);
                         break;
                 }
@@ -72,10 +78,10 @@ public class MediaControllerScript : MonoBehaviour {
             case ConditionActionK.onEnd:
                 switch (mediaAction.GetComponent<MediaKind>().MyKind)
                 {
-                    case ConditionActionK.start:
+                    case ConditionActionK.Start:
                         ConnectorBase.OnEndStart(mediaCondition, mediaAction);
                         break;
-                    case ConditionActionK.stop:
+                    case ConditionActionK.Stop:
                         ConnectorBase.OnEndStop(mediaCondition, mediaAction);
                         break;
                 }

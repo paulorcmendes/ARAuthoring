@@ -6,7 +6,7 @@ public enum ConditionActionK{
 	onBegin, onEnd, onAbort, onPause, onResume,
 	onSelection, onBeginAttribution, onEndAttribution,
 	//Actions
-	start, stop, abort, pause, resume, set,
+	Start, Stop, Abort, Pause, Resume, Set,
 	//None
 	none
 }
