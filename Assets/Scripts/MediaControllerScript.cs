@@ -9,12 +9,12 @@ public class MediaControllerScript : MonoBehaviour {
 
     public delegate void MyHandler();
     public CurrentMode myMode;
-    private GameObject ARCamera;
+    public GameObject ARCamera;
     public event MyHandler Port;
     private NCLParser nclParser;
     // Use this for initialization
     void Start () {
-        ARCamera = GameObject.FindGameObjectWithTag("ARCamera");
+        //ARCamera = GameObject.FindGameObjectWithTag("ARCamera");
         myMode = CurrentMode.EDITING;
         nclParser = GameObject.FindGameObjectWithTag("GameController").GetComponent<NCLParser>();
     }
