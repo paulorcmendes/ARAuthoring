@@ -135,7 +135,7 @@ public class NCLParser : MonoBehaviour {
 
         XmlElement bind2 = doc.CreateElement(string.Empty, "bind", string.Empty);
         AddAtributeToElement(bind2, "role", action);
-        AddAtributeToElement(bind2, "component", media2);
+        AddAtributeToElement(bind2, "component", media2);        
 
         link.AppendChild(bind1);
         link.AppendChild(bind2);
