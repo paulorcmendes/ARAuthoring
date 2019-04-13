@@ -13,9 +13,11 @@ public class MediaControllerScript : MonoBehaviour {
     public event MyHandler Port;
     private NCLParser nclParser;
     private LinksControllerScript linksController;
+    private List<GameObject> portsList;
     // Use this for initialization
     void Start () {
         //ARCamera = GameObject.FindGameObjectWithTag("ARCamera");
+        portsList = new List<GameObject>();
         myMode = CurrentMode.EDITING;
         nclParser = GameObject.FindGameObjectWithTag("GameController").GetComponent<NCLParser>();
         linksController = GameObject.FindGameObjectWithTag("LinksController").GetComponent<LinksControllerScript>();
@@ -32,11 +34,16 @@ public class MediaControllerScript : MonoBehaviour {
         {
             ARCamera.SetActive(false);
             myMode = CurrentMode.PLAYING;
+            ApplyPorts();
+            linksController.ApplyLinks();
             Play();
             nclParser.Save();
         }
         else
         {
+            RemovePorts();
+            linksController.RemoveLinks();
+            nclParser.StartNewDocument();
             ARCamera.SetActive(true);
             myMode = CurrentMode.EDITING;
         }
@@ -45,37 +52,50 @@ public class MediaControllerScript : MonoBehaviour {
     private void Play() {
         if(Port != null)  this.Port();
     }
-
+    private void ApplyPorts()
+    {
+        foreach (GameObject media in portsList)
+        {
+            this.Port += media.GetComponent<MediaSettings>().Play;
+            nclParser.AddPort(media.GetComponent<MediaKind>().MediaId);
+        }
+    }
+    private void RemovePorts()
+    {
+        foreach (GameObject media in portsList)
+        {
+            this.Port -= media.GetComponent<MediaSettings>().Play;
+        }
+    }
     public void OnEntry(GameObject media)
     {
         Debug.Log("Port " + media.GetComponent<MediaKind>().MediaId);
-        this.Port += media.GetComponent<MediaSettings>().Play;
-        nclParser.AddPort(media.GetComponent<MediaKind>().MediaId);
+        portsList.Add(media);
     }
     public void RemoveEntry(GameObject media)
     {
         Debug.Log("Port Removed " + media.GetComponent<MediaKind>().MediaId);
-        this.Port -= media.GetComponent<MediaSettings>().Play;
+        portsList.Remove(media);
     }
     public void CreateLink(GameObject mediaCondition, GameObject mediaAction) {
         string condition = Enum.GetName(typeof(ConditionActionK), mediaCondition.GetComponent<MediaKind>().MyKind);
         string media1 = mediaCondition.GetComponent<MediaKind>().MediaId;
         string action = Enum.GetName(typeof(ConditionActionK), mediaAction.GetComponent<MediaKind>().MyKind);
         string media2 = mediaAction.GetComponent<MediaKind>().MediaId;
-        string description = condition + " " + media1 + " " + action + " " + media2;
-        Debug.Log(description);
-        nclParser.AddLink(condition, media1, action, media2);
+        string[] description = { condition, media1, action, media2 };
+
+        Debug.Log(condition + " " + media1 + " " + action + " " + media2);
+        //nclParser.AddLink(condition, media1, action, media2);
 
         switch (mediaCondition.GetComponent<MediaKind>().MyKind) {
             case ConditionActionK.onBegin:
                 switch (mediaAction.GetComponent<MediaKind>().MyKind) {
                     case ConditionActionK.Start:
-
-                        ConnectorBase.OnBeginStart(mediaCondition, mediaAction);
+                        //ConnectorBase.OnBeginStart(mediaCondition, mediaAction);
                         linksController.AddLink(new Link(LinkKind.onBeginStart, mediaCondition, mediaAction, description));
                         break;
                     case ConditionActionK.Stop:
-                        ConnectorBase.OnBeginStop(mediaCondition, mediaAction);
+                        //ConnectorBase.OnBeginStop(mediaCondition, mediaAction);
                         linksController.AddLink(new Link(LinkKind.onBeginStop, mediaCondition, mediaAction, description));
                         break;
                 }
@@ -84,12 +104,12 @@ public class MediaControllerScript : MonoBehaviour {
                 switch (mediaAction.GetComponent<MediaKind>().MyKind)
                 {
                     case ConditionActionK.Start:
-                        ConnectorBase.OnEndStart(mediaCondition, mediaAction);
+                        //ConnectorBase.OnEndStart(mediaCondition, mediaAction);
                         linksController.AddLink(new Link(LinkKind.onEndStart, mediaCondition, mediaAction, description));
                         break;
                     case ConditionActionK.Stop:
                         linksController.AddLink(new Link(LinkKind.onEndStop, mediaCondition, mediaAction, description));
-                        ConnectorBase.OnEndStop(mediaCondition, mediaAction);
+                        //ConnectorBase.OnEndStop(mediaCondition, mediaAction);
                         break;
                 }
                 break;

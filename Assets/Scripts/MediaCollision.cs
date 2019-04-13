@@ -49,6 +49,11 @@ public class MediaCollision : MonoBehaviour {
                 controller.OnEntry(gameObject);
                 text.text = "Port " + Inst.MediaId;
             }
+            else
+            {
+                Inst.IsInitialMedia = false;
+                controller.RemoveEntry(gameObject);
+            }
         }
         else if (gameObject.CompareTag("ConditionMedia"))
         {

@@ -20,4 +20,22 @@ public class ConnectorBase : MonoBehaviour {
     {
         mediaCondition.GetComponent<MediaSettings>().OnBegin += mediaAction.GetComponent<MediaSettings>().Stop;
     }
+
+    //REMOÇÕES
+    public static void RemoveOnEndStart(GameObject mediaCondition, GameObject mediaAction)
+    {
+        mediaCondition.GetComponent<MediaSettings>().OnEnd -= mediaAction.GetComponent<MediaSettings>().Play;
+    }
+    public static void RemoveOnEndStop(GameObject mediaCondition, GameObject mediaAction)
+    {
+        mediaCondition.GetComponent<MediaSettings>().OnEnd -= mediaAction.GetComponent<MediaSettings>().Stop;
+    }
+    public static void RemoveOnBeginStart(GameObject mediaCondition, GameObject mediaAction)
+    {
+        mediaCondition.GetComponent<MediaSettings>().OnBegin -= mediaAction.GetComponent<MediaSettings>().Play;
+    }
+    public static void RemoveOnBeginStop(GameObject mediaCondition, GameObject mediaAction)
+    {
+        mediaCondition.GetComponent<MediaSettings>().OnBegin -= mediaAction.GetComponent<MediaSettings>().Stop;
+    }
 }

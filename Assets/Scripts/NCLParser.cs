@@ -14,6 +14,10 @@ public class NCLParser : MonoBehaviour {
     private XmlElement body;
 
     void Awake() {
+        StartNewDocument();
+    }
+    public void StartNewDocument()
+    {
         doc = new XmlDocument();
 
         ncl = doc.CreateElement(string.Empty, "ncl", string.Empty);
@@ -33,20 +37,6 @@ public class NCLParser : MonoBehaviour {
 
 
         body = doc.CreateElement(string.Empty, "body", string.Empty);
-
-        //tests
-        /*
-        AddMedia("media1", "video1.mp4", 50.0f, 0f, 0f, 1f, 1f, 1);
-        AddMedia("media2", "video2.mp4", 50.0f, 0f, 0f, 0.5f, 0.5f, 2);
-        AddMedia("media3", "video3.mp4", 50.0f, 0.5f, 0f, 0.5f, 0.5f, 2);
-        AddMedia("media4", "video4.mp4", 50.0f, 0f, 0.5f, 0.5f, 0.5f, 2);
-        AddPort("media1");
-        AddLink("onBegin", "media1", "Start", "media2");
-        AddLink("onEnd", "media2", "Start", "media3");
-        AddLink("onBegin", "media3", "Start", "media4");
-        AddLink("onEnd", "media3", "Stop", "media4");
-        Save();
-        */
     }
 
     public void Save()
