@@ -11,6 +11,9 @@ TagManager:
   - OutText
   - ConditionMedia
   - ActionMedia
+  - Link
+  - LinksController
+  - Delete
   layers:
   - Default
   - TransparentFX

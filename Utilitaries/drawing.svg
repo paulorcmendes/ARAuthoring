@@ -29,8 +29,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="1361.8713"
-     inkscape:cy="-698.75267"
+     inkscape:cx="198.32722"
+     inkscape:cy="-204.07752"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -2969,5 +2969,253 @@
            y="37.894753"
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:1.62734139">9 9 9 9</tspan></text>
     </g>
+    <rect
+       y="1158.9137"
+       x="-3.88366e-007"
+       height="234.375"
+       width="234.375"
+       id="rect4952"
+       style="opacity:1;fill:#e6e6e6;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:20.67403603;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\paulo\Documents\IC\ARAuthoring\Assets\Textures\link.png"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <g
+       id="g4974"
+       transform="matrix(0.63075522,0,0,0.63075522,17.903658,858.84043)"
+       style="stroke-width:2.5956068">
+      <g
+         transform="translate(-0.15906689,-547.84121)"
+         id="g4962"
+         style="stroke-width:2.5956068">
+        <rect
+           style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:50.63245392;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect4954"
+           width="112.5"
+           height="75"
+           x="0.15906689"
+           y="1243.9534" />
+        <rect
+           style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:38.66672897;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect4956"
+           width="18.75"
+           height="9.375"
+           x="9.5340672"
+           y="1248.6409" />
+        <rect
+           y="1248.6409"
+           x="47.034065"
+           height="9.375"
+           width="18.75"
+           id="rect4958"
+           style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:38.66672897;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:38.66672897;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect4960"
+           width="18.75"
+           height="9.375"
+           x="84.534065"
+           y="1248.6409" />
+      </g>
+      <g
+         id="g4972"
+         transform="rotate(-6.2010102,-5681.4812,2259.162)"
+         style="stroke-width:2.5956068">
+        <rect
+           y="1300.2034"
+           x="135.59377"
+           height="18.75"
+           width="112.5"
+           id="rect4964"
+           style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:25.31622696;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="1304.8909"
+           x="144.96877"
+           height="9.375"
+           width="18.75"
+           id="rect4966"
+           style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:38.66672897;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:38.66672897;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect4968"
+           width="18.75"
+           height="9.375"
+           x="182.46877"
+           y="1304.8909" />
+        <rect
+           y="1304.8909"
+           x="219.96877"
+           height="9.375"
+           width="18.75"
+           id="rect4970"
+           style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:38.66672897;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+    </g>
+    <text
+       inkscape:export-ydpi="191.99998"
+       inkscape:export-xdpi="191.99998"
+       inkscape:export-filename="C:\Users\paulo\Documents\IC\ARAuthoring\Assets\Textures\media10.png"
+       transform="scale(0.98914287,1.0109763)"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:90.42272186px;line-height:1.25;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.76761365"
+       x="27.257915"
+       y="1249.1544"
+       id="text4980"><tspan
+         sodipodi:role="line"
+         id="tspan4978"
+         x="27.257915"
+         y="1249.1544"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#000000;fill-opacity:1;stroke-width:3.76761365">Link</tspan></text>
+    <g
+       style="stroke-width:2.5956068"
+       transform="matrix(0.63075522,0,0,0.63075522,151.16259,858.84043)"
+       id="g5031">
+      <g
+         style="stroke-width:2.5956068"
+         id="g5019"
+         transform="translate(-0.15906689,-547.84121)">
+        <rect
+           y="1243.9534"
+           x="0.15906689"
+           height="75"
+           width="112.5"
+           id="rect5011"
+           style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:50.63245392;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="1248.6409"
+           x="9.5340672"
+           height="9.375"
+           width="18.75"
+           id="rect5013"
+           style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:38.66672897;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:38.66672897;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5015"
+           width="18.75"
+           height="9.375"
+           x="47.034065"
+           y="1248.6409" />
+        <rect
+           y="1248.6409"
+           x="84.534065"
+           height="9.375"
+           width="18.75"
+           id="rect5017"
+           style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:38.66672897;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <g
+         style="stroke-width:2.5956068"
+         transform="rotate(-6.2010102,-5681.4812,2259.162)"
+         id="g5029">
+        <rect
+           style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:25.31622696;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5021"
+           width="112.5"
+           height="18.75"
+           x="135.59377"
+           y="1300.2034" />
+        <rect
+           style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:38.66672897;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5023"
+           width="18.75"
+           height="9.375"
+           x="144.96877"
+           y="1304.8909" />
+        <rect
+           y="1304.8909"
+           x="182.46877"
+           height="9.375"
+           width="18.75"
+           id="rect5025"
+           style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:38.66672897;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:38.66672897;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5027"
+           width="18.75"
+           height="9.375"
+           x="219.96877"
+           y="1304.8909" />
+      </g>
+    </g>
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 97.968242,1314.375 h 24.713888 v -15.0478 l 22.20669,22.9299 -22.34202,21.4801 v -13.2396 H 97.968242 Z"
+       id="path5051"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccc" />
+    <rect
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       inkscape:export-filename="C:\Users\paulo\Documents\IC\ARAuthoring\Assets\Textures\delete.png"
+       style="opacity:1;fill:#e6e6e6;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:20.67403603;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5053"
+       width="234.375"
+       height="234.375"
+       x="-1.8940363"
+       y="1467.6416" />
+    <g
+       id="g5112"
+       transform="matrix(0.82503773,0,0,0.82676814,17.532468,277.61922)"
+       style="stroke-width:1.21079671">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5055"
+         d="m 44.509847,1547.6527 23.675449,138.2646 H 168.5692 l 21.78142,-141.1058 z"
+         style="fill:none;stroke:#000000;stroke-width:11.23770714;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path5057"
+         d="m 75.76144,1548.5996 19.887379,134.4766"
+         style="fill:none;stroke:#000000;stroke-width:6.12965822;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path5059"
+         d="m 105.119,1545.7586 22.72843,141.1057"
+         style="fill:none;stroke:#000000;stroke-width:6.12965822;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path5063"
+         d="m 137.31761,1543.8646 22.16243,140.5437"
+         style="fill:none;stroke:#000000;stroke-width:6.12965822;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path5065"
+         d="m 167.62219,1549.0732 9.94368,62.503"
+         style="fill:none;stroke:#000000;stroke-width:6.12965822;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path5069"
+         d="M 50.665464,1575.1162 H 186.08904"
+         style="fill:none;stroke:#000000;stroke-width:6.12965822;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path5071"
+         d="M 53.033008,1605.4208 H 180.88044"
+         style="fill:none;stroke:#000000;stroke-width:6.12965822;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path5073"
+         d="M 59.188626,1630.9903 H 176.14534"
+         style="fill:none;stroke:#000000;stroke-width:6.12965822;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path5075"
+         d="M 62.976698,1657.0333 H 175.19833"
+         style="fill:none;stroke:#000000;stroke-width:6.12965822;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <text
+       id="text5092"
+       y="1525.7146"
+       x="59.766697"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.35836029px;line-height:1.25;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.76761365"
+       xml:space="preserve"
+       transform="scale(0.98810722,1.0120359)"
+       inkscape:export-filename="C:\Users\paulo\Documents\IC\ARAuthoring\Assets\Textures\media10.png"
+       inkscape:export-xdpi="191.99998"
+       inkscape:export-ydpi="191.99998"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#000000;fill-opacity:1;stroke-width:3.76761365"
+         y="1525.7146"
+         x="59.766697"
+         id="tspan5090"
+         sodipodi:role="line">DEL</tspan></text>
   </g>
 </svg>

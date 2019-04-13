@@ -12,11 +12,13 @@ public class MediaControllerScript : MonoBehaviour {
     public GameObject ARCamera;
     public event MyHandler Port;
     private NCLParser nclParser;
+    private LinksControllerScript linksController;
     // Use this for initialization
     void Start () {
         //ARCamera = GameObject.FindGameObjectWithTag("ARCamera");
         myMode = CurrentMode.EDITING;
         nclParser = GameObject.FindGameObjectWithTag("GameController").GetComponent<NCLParser>();
+        linksController = GameObject.FindGameObjectWithTag("LinksController").GetComponent<LinksControllerScript>();
     }
 	
 	// Update is called once per frame
@@ -60,18 +62,21 @@ public class MediaControllerScript : MonoBehaviour {
         string media1 = mediaCondition.GetComponent<MediaKind>().MediaId;
         string action = Enum.GetName(typeof(ConditionActionK), mediaAction.GetComponent<MediaKind>().MyKind);
         string media2 = mediaAction.GetComponent<MediaKind>().MediaId;
-
-        Debug.Log(condition+" "+ media1 + " " +action+" "+media2);
+        string description = condition + " " + media1 + " " + action + " " + media2;
+        Debug.Log(description);
         nclParser.AddLink(condition, media1, action, media2);
 
         switch (mediaCondition.GetComponent<MediaKind>().MyKind) {
             case ConditionActionK.onBegin:
                 switch (mediaAction.GetComponent<MediaKind>().MyKind) {
                     case ConditionActionK.Start:
+
                         ConnectorBase.OnBeginStart(mediaCondition, mediaAction);
+                        linksController.AddLink(new Link(LinkKind.onBeginStart, mediaCondition, mediaAction, description));
                         break;
                     case ConditionActionK.Stop:
                         ConnectorBase.OnBeginStop(mediaCondition, mediaAction);
+                        linksController.AddLink(new Link(LinkKind.onBeginStop, mediaCondition, mediaAction, description));
                         break;
                 }
                 break;
@@ -80,8 +85,10 @@ public class MediaControllerScript : MonoBehaviour {
                 {
                     case ConditionActionK.Start:
                         ConnectorBase.OnEndStart(mediaCondition, mediaAction);
+                        linksController.AddLink(new Link(LinkKind.onEndStart, mediaCondition, mediaAction, description));
                         break;
                     case ConditionActionK.Stop:
+                        linksController.AddLink(new Link(LinkKind.onEndStop, mediaCondition, mediaAction, description));
                         ConnectorBase.OnEndStop(mediaCondition, mediaAction);
                         break;
                 }
