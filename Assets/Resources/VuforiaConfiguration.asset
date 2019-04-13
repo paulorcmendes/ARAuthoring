@@ -17,9 +17,9 @@ MonoBehaviour:
     ufoLicenseKey: QWVNWWF5RC8vLy8vQUFBQUtFcjZQTUxRdVVMZWg1YlBJbXBoY1VWbHNSUVVUcmJ1ZGZRbGh1bGRQd0VBV0FQZ2RldENYUFFzNG1HMWZlQ0grb2doQ2lJT3R3cld4OE5NUzRLM3h6clNUanhlYWFJRU1iNlduZFdSTERQL2JtVHYrMS84QURHei92TzNZN2ZITzM0R0o5NzM0cmkwYmt3ODBsZHc2cWx4blFvS2VZbCt5SW42Z2V3LzFoYkg2VmxpeXNWZjNqNzQ5WTA2c0p5Y2YyQVpyMjdKTkZRaTh3WStmbURlbVlJdGxycTRWNzFBV0FSWkk5eEtHREU2Ymp1K1NXVXFuR3lhbkNVdWxlbjRsU2lia2cwSk8xQWIvcjF4VFRKcGRnRXBjTnpjVzFoWjVTSGxBaE1EZmdCeVdxWXJWekJESGNwdk5RbFJHMTRDYmNaN3V2RWRuYWlIZ2wrd3E2aTJLZVkzZW5OUzJsbGY1cTFJb0ZkVXljZXc=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 10
-    maxSimultaneousObjectTargets: 10
-    useDelayedLoadingObjectTargets: 0
+    maxSimultaneousImageTargets: 3
+    maxSimultaneousObjectTargets: 3
+    useDelayedLoadingObjectTargets: 1
     cameraDirection: 0
     mirrorVideoBackground: 0
     version: 8.0.10
@@ -66,5 +66,5 @@ MonoBehaviour:
   webcam:
     deviceNameSetInEditor: Integrated Webcam
     flipHorizontally: 0
-    turnOffWebCam: 1
+    turnOffWebCam: 0
     renderTextureLayer: 30

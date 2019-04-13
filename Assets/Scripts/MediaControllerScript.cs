@@ -14,6 +14,7 @@ public class MediaControllerScript : MonoBehaviour {
     private NCLParser nclParser;
     private LinksControllerScript linksController;
     private List<GameObject> portsList;
+    public GameObject canvas;
     // Use this for initialization
     void Start () {
         //ARCamera = GameObject.FindGameObjectWithTag("ARCamera");
@@ -32,6 +33,7 @@ public class MediaControllerScript : MonoBehaviour {
     {
         if (myMode == CurrentMode.EDITING)
         {
+            canvas.SetActive(false);
             ARCamera.SetActive(false);
             myMode = CurrentMode.PLAYING;
             ApplyPorts();
@@ -45,6 +47,7 @@ public class MediaControllerScript : MonoBehaviour {
             linksController.RemoveLinks();
             nclParser.StartNewDocument();
             ARCamera.SetActive(true);
+            canvas.SetActive(true);
             myMode = CurrentMode.EDITING;
         }
     }
