@@ -14,6 +14,7 @@ TagManager:
   - Link
   - LinksController
   - Delete
+  - StructuralView
   layers:
   - Default
   - TransparentFX

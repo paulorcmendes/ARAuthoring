@@ -15,6 +15,7 @@ public class MediaControllerScript : MonoBehaviour {
     private LinksControllerScript linksController;
     private List<GameObject> portsList;
     public GameObject canvas;
+    private StructuralViewScript structural;
     // Use this for initialization
     void Start () {
         //ARCamera = GameObject.FindGameObjectWithTag("ARCamera");
@@ -22,6 +23,7 @@ public class MediaControllerScript : MonoBehaviour {
         myMode = CurrentMode.EDITING;
         nclParser = GameObject.FindGameObjectWithTag("GameController").GetComponent<NCLParser>();
         linksController = GameObject.FindGameObjectWithTag("LinksController").GetComponent<LinksControllerScript>();
+        structural = GameObject.FindGameObjectWithTag("StructuralView").GetComponent<StructuralViewScript>();
     }
 	
 	// Update is called once per frame
@@ -74,11 +76,13 @@ public class MediaControllerScript : MonoBehaviour {
     {
         Debug.Log("Port " + media.GetComponent<MediaKind>().MediaId);
         portsList.Add(media);
+        structural.AddEntry(media);
     }
     public void RemoveEntry(GameObject media)
     {
         Debug.Log("Port Removed " + media.GetComponent<MediaKind>().MediaId);
         portsList.Remove(media);
+        structural.RemoveEntry(media);
     }
     public void CreateLink(GameObject mediaCondition, GameObject mediaAction) {
         string condition = Enum.GetName(typeof(ConditionActionK), mediaCondition.GetComponent<MediaKind>().MyKind);

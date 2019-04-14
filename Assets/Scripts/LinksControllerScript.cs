@@ -9,6 +9,7 @@ public class LinksControllerScript : MonoBehaviour
     private float lastRemoval;
     private float delayRemoval;
     private NCLParser nclParser;
+    private StructuralViewScript structural;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +17,7 @@ public class LinksControllerScript : MonoBehaviour
         links = new Dictionary<GameObject, Link>();
         lastRemoval = -delayRemoval;
         nclParser = GameObject.FindGameObjectWithTag("GameController").GetComponent<NCLParser>();
+        structural = GameObject.FindGameObjectWithTag("StructuralView").GetComponent<StructuralViewScript>();
     }
 
     // Update is called once per frame
@@ -32,6 +34,7 @@ public class LinksControllerScript : MonoBehaviour
         linkCollision.linksController = this;
         linkObject.transform.Translate(new Vector3(0,1.5f*links.Count));
         links.Add(linkObject, link);
+        structural.AddLinkToGraph(link);
     }
 
     public void RemoveLink(GameObject linkObject)
@@ -40,6 +43,7 @@ public class LinksControllerScript : MonoBehaviour
         if (currentTime > lastRemoval + delayRemoval)
         {
             lastRemoval = currentTime;
+            structural.RemoveLinkFromGraph(links[linkObject]);
             this.links.Remove(linkObject);
             Destroy(linkObject);
             UpdatePosLinks();

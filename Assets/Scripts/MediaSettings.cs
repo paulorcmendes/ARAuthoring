@@ -75,12 +75,12 @@ public class MediaSettings : MonoBehaviour {
         this.videoPlayer.isLooping = false;
         this.videoPlayer.url = this.url;
         //this.GetComponent<MeshRenderer>().materials[0].SetTexture("_MainTex", videoPlayer.texture);
-        GameObject text = new GameObject();
+        /*GameObject text = new GameObject();
         TextMesh t = text.AddComponent<TextMesh>();
         t.text = "new text set";
         t.fontSize = 30;
         t.transform.localEulerAngles += new Vector3(90, 0, 0);
-        t.transform.localPosition += new Vector3(56f, 3f, 40f);
+        t.transform.localPosition += new Vector3(56f, 3f, 40f);*/
     }
 
     private void SetMediaSize()
